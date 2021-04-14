@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: User
-      
+
 
     mongo-express:
       image: mongo-express
